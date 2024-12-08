@@ -73,6 +73,7 @@ html,body{
     padding: 10px;
     border-radius: 50px;
     background-color: rgb(175, 160, 238);
+    transition: left 0.5s ease;
 }
 #login:hover{
     background-color: rgb(154, 52, 249);
@@ -102,10 +103,34 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-  
-    
+    position:absolute;
+    white-space: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;     
+}
+#strip p{
+    display: inline-block;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    white-space: nowrap;
+    padding-left: 10%;
+}
+
+@keyframes scroll {
+    0%{
+        
+        transform: translateX(calc(-100% - 50px));
+    }
+    100%{
+        transform: translateX(100%);
+    }
     
 }
+
+
 
 #content{
     height:86%;
@@ -157,8 +182,9 @@ html,body{
     background-size: cover;
     background-position: center; 
     opacity: 0.9;
-
+   
 }
+
 
 #verticaltext{
     position: absolute;
@@ -174,9 +200,10 @@ html,body{
     color: transparent;
     letter-spacing: 6px;
     transform: rotate(90deg);
-  
 
+   
 }
+
 
 
 
@@ -270,6 +297,7 @@ nav ul li a:hover{
     border-color: blueviolet;
     border-bottom: 1.5px solid white;
     color: thistle;
+  
    
 }
 
