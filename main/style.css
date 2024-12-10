@@ -81,13 +81,13 @@ img[alt="login"]{
     animation-duration: 3s;
 }
 #main-heading:hover{
-    color: #f18410;
+    color: #ca560f;
 }
 #main-heading:active{
-    color: #ad540b;
+    color: #f27209;
 }
 #main-heading:visited{
-    color: #9b7b0a;
+    color: #cba20e;
 }
 
 
