@@ -302,7 +302,6 @@ img[alt="login"]{
     font-size: 20px;
 }
 
-<<<<<<< HEAD
 nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -373,10 +372,8 @@ nav .dropdown:hover .dropdown-content {
 nav .menu-btn i{
     color: white;
     font-size: 22px;
-=======
 #nav_items div:hover{
     color: rgb(46, 45, 45);
->>>>>>> 69b3ec37d5838a08ed9bcb0f1ec3c902119629ef
     cursor: pointer;
 }
 
