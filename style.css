@@ -253,6 +253,7 @@ nav{
     flex-wrap: wrap;
     position: fixed;
     z-index: 10;
+}
 nav{
     background-color: #934909;
     border-bottom: 5px solid #ffe68b;
@@ -372,6 +373,7 @@ nav .dropdown:hover .dropdown-content {
 nav .menu-btn i{
     color: white;
     font-size: 22px;
+}
 #nav_items div:hover{
     color: rgb(46, 45, 45);
     cursor: pointer;
