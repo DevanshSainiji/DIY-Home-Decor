@@ -1,0 +1,44 @@
+
+body{
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(255, 252, 241);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.large_img{
+    width: 69%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+.sub_head{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+#upper{
+    display: flex;
+    gap: 50px;
+}
