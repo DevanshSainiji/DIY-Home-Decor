@@ -9,7 +9,6 @@ body{
     width: 100%;
     background-color: #ffe68b;
 }
-<<<<<<< HEAD
 
 #main{
     height: 100%;
@@ -254,11 +253,9 @@ nav{
     flex-wrap: wrap;
     position: fixed;
     z-index: 10;
-=======
 nav{
     background-color: #934909;
     border-bottom: 5px solid #ffe68b;
->>>>>>> 69b3ec37d5838a08ed9bcb0f1ec3c902119629ef
 }
 #nav_first_div{
     display: flex;
