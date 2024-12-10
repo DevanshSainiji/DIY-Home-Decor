@@ -72,23 +72,23 @@ img[alt="login"]{
     color: #522607;
     animation-direction: normal;
 }
-@keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+@keyframes animate {
+    0%{
+        color: #ea3b0b;
+    }
+    50%{
+        color: #fb8507;
+    }
+    100%{
+        color: #ea2711;
+    }
 }
 #main-heading{
-    animation-name: fade-in;
-    animation-duration: 3s;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
-#main-heading:hover{
-    color: #ca560f;
-}
-#main-heading:active{
-    color: #f27209;
-}
-#main-heading:visited{
-    color: #cba20e;
-}
+
 
 
 
