@@ -58,7 +58,12 @@ img[alt="login"]{
     font-size: 20px;
 }
 
-#nav_items div:hover{
+#nav_items div a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav_items div a:hover{
     color: rgb(46, 45, 45);
     cursor: pointer;
 }
