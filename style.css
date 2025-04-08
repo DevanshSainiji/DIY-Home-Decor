@@ -9,10 +9,12 @@ body{
     width: 100%;
     background-color: #ffe68b;
 }
+
 nav{
     background-color: #934909;
     border-bottom: 5px solid #ffe68b;
 }
+
 #nav_first_div{
     display: flex;
     width: 100%;
@@ -21,17 +23,21 @@ nav{
     padding: 20px;
     align-items: center;
 }
+
 nav *{
     text-align: center;
 }
+
 #Decorify{
     width: 20%;
     font-size: 25px;
     font-weight: 700;
 }
+
 #Login{
     width: 20%;
 }
+
 #login_button{
     width: fit-content;
     padding: 10px;
@@ -40,11 +46,12 @@ nav *{
     background-color: #ffdb58;
     border: none;
 }
+
 #login_button:hover{
     background-color: #dec364;
     color: rgb(46, 45, 45);
-    
 }
+
 img[alt="login"]{
     height: 14px;
 }
@@ -88,15 +95,12 @@ img[alt="login"]{
         color: #ea2711;
     }
 }
+
 #main-heading{
     animation-name: animate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-
-
-
-
 
 
 .card{
@@ -115,7 +119,6 @@ img[alt="login"]{
     background-color: #5f5019;
     border: 2px solid #5f5019;
 }
-
 
 .text-banner {
     width: 100%;
@@ -169,6 +172,7 @@ img[alt="login"]{
  
     background-image:url(https://img.etimg.com/thumb/msid-101163397,width-480,height-360,imgsize-293346,resizemode-75/view-link-aadhaar-status-pre-login.jpg);
 }
+
 .form_close{
     position: absolute;
     top: 10px;
@@ -178,11 +182,13 @@ img[alt="login"]{
     opacity: 0.7;
     cursor: pointer;
 }
+
 .form_container h2{
     font-size: 22px;
     text-align: center;
     color: #502303;
 }
+
 .input_box{
     position: relative;
     margin-top: 30px;
@@ -223,6 +229,7 @@ img[alt="login"]{
 .input_box input:focus ~ i.password {
     color: #b0520e;
 }
+
 .input_box i.pw_hide{
     right: 0;
     color: #502303;
